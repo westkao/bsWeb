@@ -1,0 +1,189 @@
+
+        body {
+            margin: 0;
+        }
+
+        .text {
+            /* border: 1px solid red; */
+            width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            justify-content: space-between;
+
+        }
+
+        .textbox {
+            width: 360px;
+            text-align: center;
+            /* border:1px solid green; */
+            padding-left: 3px;
+            padding-right: 3px;
+
+            /* height: 400px; */
+        }
+        /* .textbox p{
+            text-align: center;
+        } */
+
+        p {
+            text-align: left;
+            font-size: 24px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h2 {
+            color: red;
+        }
+
+        .slogan h2 {
+            color: floralwhite;
+            font-size: 36px;
+        }
+
+        .slogan {
+            text-align: center;
+            background-color: red;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+
+        .push h2 {
+            font-size: 40px;
+            color: green;
+            text-align: center;
+        }
+
+        .classcontent {
+            width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 50px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .classbox {
+            width: 320px;
+            box-shadow: 0 0 7px #4a4848;
+            padding: 20px;
+        }
+
+        .classbox img {
+            width: 100%;
+        }
+
+        .classbox h3 {
+            font-size: 28px;
+        }
+
+        .classbox .p-blue {
+            font-size: 18px;
+            color: #6CBDCD;
+        }
+
+        .classbox p {
+            font-size: 18px;
+            color: #7C8388;
+        }
+
+        .classbox p s {
+            font-size: 20px;
+        }
+
+        .classbox p span {
+            font-size: 22px;
+            color: #DF3549;
+            font-weight: bold;
+        }
+
+        .classbox .p-center {
+            text-align: center;
+        }
+
+        .classbox .payclass a {
+            background-color: #DC3545;
+            color: aliceblue;
+            text-decoration: none;
+            display: block;
+            width: 100%;
+            text-align: center;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-radius: 10px;
+        }
+
+        /* .classbox button{
+            background-color: #DC3545;
+            border: none;
+            color: #aliceblue;
+            padding: 10px 30px;
+            border-radius: 10px;
+        }
+        .classbox button:hover{
+            cursor: pointer;
+        } */
+        .classbox .payclass a:hover{
+            cursor: pointer;
+            background-color: aquamarine;
+        }
+        /* 中尺寸響應式樣式 */
+        /* 中尺寸響應式樣式 */
+        /* 中尺寸響應式樣式 */
+        @media (min-width:640px) and (max-width:1199px){
+            .text{
+                width: 80%;
+            }
+            .classcontent{
+                width: 80%;
+            }
+            .classbox{
+                width: 80%;
+                margin-right: 10px;
+            }
+
+        }
+        /* 小尺寸響應式樣式 */
+        /* 小尺寸響應式樣式 */
+        /* 小尺寸響應式樣式 */
+        @media (max-width:639px){
+            #wrap{
+                /* border: 1px solid yellowgreen;
+                width: 500px; */
+                width: 100%;
+                margin: auto;
+            }
+            .banner img{
+                width: 100%;
+            }
+            .text{
+                /* border: 1px solid red; */
+                display: block;
+                width: 80%;
+            }
+            .textbox {
+                width: 80%;
+                margin: auto;
+            }
+            .slogan h2{
+                width: 80%;
+                margin: auto;
+                /* background-color: aqua; */
+            }
+            .classcontent{
+                display: block;
+                width: 80%;
+                margin: auto;
+                /* border: 1px solid rgb(67, 17, 184); */
+            }
+            .classbox{
+                /* display: block; */
+                /* width: 80%; */
+                margin: auto;
+                margin-bottom: 20px;
+            }
+        }
+            
+   
